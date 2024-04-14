@@ -28,6 +28,7 @@ class _newappState extends State<newapp> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      
         appBar: AppBar(
           leading: IconButton(
               onPressed: () {},
@@ -49,7 +50,7 @@ class _newappState extends State<newapp> {
             IconButton(onPressed: () {}, icon: Icon(Icons.search))
           ],
         ),
-        body: SingleChildScrollView(
+        body: 
           child: Column(
             children: [
               Padding(
@@ -76,61 +77,64 @@ class _newappState extends State<newapp> {
               ),
               SingleChildScrollView(
                 child: Container(
-                  child: Row(
-                    children: [
-                      Container(
-                        child: Text(
-                          "hello",
-                          textAlign: TextAlign.center,
-                          style: TextStyle(
-                            color: Color.fromARGB(255, 255, 255, 255),
+                  child: Padding(
+                    padding: const EdgeInsets.all(20.0),
+                    child: Row(
+                      children: [
+                        Container(
+                          child: Text(
+                            "hello",
+                            textAlign: TextAlign.center,
+                            style: TextStyle(
+                              color: Color.fromARGB(255, 255, 255, 255),
+                            ),
                           ),
-                        ),
-                        alignment: Alignment.center,
-                        height: 200,
-                        width: 200,
-                        decoration: BoxDecoration(
-                          color: Color.fromARGB(255, 0, 0, 0),
-                          borderRadius: BorderRadius.circular(15),
-                        ),
-                        margin: EdgeInsets.fromLTRB(20, 0, 20, 100),
-                      ),
-                      Container(
-                        child: Text(
-                          "hello",
-                          textAlign: TextAlign.center,
-                          style: TextStyle(
-                            color: Color.fromARGB(255, 255, 255, 255),
+                          alignment: Alignment.center,
+                          height: 200,
+                          width: 200,
+                          decoration: BoxDecoration(
+                            color: Color.fromARGB(255, 0, 0, 0),
+                            borderRadius: BorderRadius.circular(15),
                           ),
+                          margin: EdgeInsets.fromLTRB(20, 0, 20, 100),
                         ),
-                        alignment: Alignment.center,
-                        height: 200,
-                        width: 200,
-                        decoration: BoxDecoration(
-                          color: Color.fromARGB(255, 0, 0, 0),
-                          borderRadius: BorderRadius.circular(15),
-                        ),
-                        margin: EdgeInsets.fromLTRB(0, 0, 20, 100),
-                      ),
-                      Container(
-                        child: Text(
-                          "hello",
-                          textAlign: TextAlign.center,
-                          style: TextStyle(
-                            color: Color.fromARGB(255, 255, 255, 255),
+                        Container(
+                          child: Text(
+                            "hello",
+                            textAlign: TextAlign.center,
+                            style: TextStyle(
+                              color: Color.fromARGB(255, 255, 255, 255),
+                            ),
                           ),
+                          alignment: Alignment.center,
+                          height: 200,
+                          width: 200,
+                          decoration: BoxDecoration(
+                            color: Color.fromARGB(255, 0, 0, 0),
+                            borderRadius: BorderRadius.circular(15),
+                          ),
+                          margin: EdgeInsets.fromLTRB(0, 0, 20, 100),
                         ),
-                        alignment: Alignment.center,
-                        height: 200,
-                        width: 200,
-                        decoration: BoxDecoration(
-                          color: Color.fromARGB(255, 0, 0, 0),
-                          borderRadius: BorderRadius.circular(15),
-                        ),
-                        margin: EdgeInsets.fromLTRB(0, 0, 20, 100),
-                      )
-                    ],
-                    crossAxisAlignment: CrossAxisAlignment.center,
+                        Container(
+                          child: Text(
+                            "hello",
+                            textAlign: TextAlign.center,
+                            style: TextStyle(
+                              color: Color.fromARGB(255, 255, 255, 255),
+                            ),
+                          ),
+                          alignment: Alignment.center,
+                          height: 200,
+                          width: 200,
+                          decoration: BoxDecoration(
+                            color: Color.fromARGB(255, 0, 0, 0),
+                            borderRadius: BorderRadius.circular(15),
+                          ),
+                          margin: EdgeInsets.fromLTRB(0, 0, 20, 100),
+                        )
+                      ],
+                      crossAxisAlignment: CrossAxisAlignment.center,
+                    ),
                   ),
                   color: Color.fromARGB(255, 0, 29, 157),
                   alignment: Alignment.center,
