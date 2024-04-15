@@ -77,7 +77,8 @@ class _newappState extends State<newapp> {
               SizedBox(
                 height: 20,
               ),
-              Container(color: Color.fromARGB(255, 73, 133, 253),
+              Container(
+                color: Color.fromARGB(255, 73, 133, 253),
                 height: 500,
                 width: 300,
                 child: Center(
@@ -98,12 +99,14 @@ class _newappState extends State<newapp> {
                               fontWeight: FontWeight.bold),
                         ),
                         style: ButtonStyle(
-                            backgroundColor: MaterialStatePropertyAll(Colors.red),
+                            backgroundColor:
+                                MaterialStatePropertyAll(Colors.red),
                             padding: MaterialStatePropertyAll(
                               EdgeInsets.all(34),
                             ),
-                            shape: MaterialStatePropertyAll(RoundedRectangleBorder(
-                                borderRadius: BorderRadius.circular(15)))),
+                            shape: MaterialStatePropertyAll(
+                                RoundedRectangleBorder(
+                                    borderRadius: BorderRadius.circular(15)))),
                       ),
                       ElevatedButton(
                         onPressed: () {},
@@ -115,12 +118,14 @@ class _newappState extends State<newapp> {
                               fontWeight: FontWeight.bold),
                         ),
                         style: ButtonStyle(
-                            backgroundColor: MaterialStatePropertyAll(Colors.red),
+                            backgroundColor:
+                                MaterialStatePropertyAll(Colors.red),
                             padding: MaterialStatePropertyAll(
                               EdgeInsets.all(34),
                             ),
-                            shape: MaterialStatePropertyAll(RoundedRectangleBorder(
-                                borderRadius: BorderRadius.circular(15)))),
+                            shape: MaterialStatePropertyAll(
+                                RoundedRectangleBorder(
+                                    borderRadius: BorderRadius.circular(15)))),
                       ),
                       ElevatedButton(
                         onPressed: () {},
@@ -132,12 +137,14 @@ class _newappState extends State<newapp> {
                               fontWeight: FontWeight.bold),
                         ),
                         style: ButtonStyle(
-                            backgroundColor: MaterialStatePropertyAll(Colors.red),
+                            backgroundColor:
+                                MaterialStatePropertyAll(Colors.red),
                             padding: MaterialStatePropertyAll(
                               EdgeInsets.all(34),
                             ),
-                            shape: MaterialStatePropertyAll(RoundedRectangleBorder(
-                                borderRadius: BorderRadius.circular(15)))),
+                            shape: MaterialStatePropertyAll(
+                                RoundedRectangleBorder(
+                                    borderRadius: BorderRadius.circular(15)))),
                       ),
                       ElevatedButton(
                         onPressed: () {},
@@ -149,12 +156,14 @@ class _newappState extends State<newapp> {
                               fontWeight: FontWeight.bold),
                         ),
                         style: ButtonStyle(
-                            backgroundColor: MaterialStatePropertyAll(Colors.red),
+                            backgroundColor:
+                                MaterialStatePropertyAll(Colors.red),
                             padding: MaterialStatePropertyAll(
                               EdgeInsets.all(34),
                             ),
-                            shape: MaterialStatePropertyAll(RoundedRectangleBorder(
-                                borderRadius: BorderRadius.circular(15)))),
+                            shape: MaterialStatePropertyAll(
+                                RoundedRectangleBorder(
+                                    borderRadius: BorderRadius.circular(15)))),
                       ),
                       ElevatedButton(
                         onPressed: () {},
@@ -166,12 +175,14 @@ class _newappState extends State<newapp> {
                               fontWeight: FontWeight.bold),
                         ),
                         style: ButtonStyle(
-                            backgroundColor: MaterialStatePropertyAll(Colors.red),
+                            backgroundColor:
+                                MaterialStatePropertyAll(Colors.red),
                             padding: MaterialStatePropertyAll(
                               EdgeInsets.all(34),
                             ),
-                            shape: MaterialStatePropertyAll(RoundedRectangleBorder(
-                                borderRadius: BorderRadius.circular(15)))),
+                            shape: MaterialStatePropertyAll(
+                                RoundedRectangleBorder(
+                                    borderRadius: BorderRadius.circular(15)))),
                       ),
                       ElevatedButton(
                         onPressed: () {},
@@ -183,13 +194,16 @@ class _newappState extends State<newapp> {
                               fontWeight: FontWeight.bold),
                         ),
                         style: ButtonStyle(
-                            backgroundColor: MaterialStatePropertyAll(Colors.red),
+                            backgroundColor:
+                                MaterialStatePropertyAll(Colors.red),
                             padding: MaterialStatePropertyAll(
                               EdgeInsets.all(34),
                             ),
-                            shape: MaterialStatePropertyAll(RoundedRectangleBorder(
-                                borderRadius: BorderRadius.circular(15)))),
-                      ),ElevatedButton(
+                            shape: MaterialStatePropertyAll(
+                                RoundedRectangleBorder(
+                                    borderRadius: BorderRadius.circular(15)))),
+                      ),
+                      ElevatedButton(
                         onPressed: () {},
                         child: Text(
                           "7",
@@ -199,13 +213,16 @@ class _newappState extends State<newapp> {
                               fontWeight: FontWeight.bold),
                         ),
                         style: ButtonStyle(
-                            backgroundColor: MaterialStatePropertyAll(Colors.red),
+                            backgroundColor:
+                                MaterialStatePropertyAll(Colors.red),
                             padding: MaterialStatePropertyAll(
                               EdgeInsets.all(34),
                             ),
-                            shape: MaterialStatePropertyAll(RoundedRectangleBorder(
-                                borderRadius: BorderRadius.circular(15)))),
-                      ),ElevatedButton(
+                            shape: MaterialStatePropertyAll(
+                                RoundedRectangleBorder(
+                                    borderRadius: BorderRadius.circular(15)))),
+                      ),
+                      ElevatedButton(
                         onPressed: () {},
                         child: Text(
                           "8",
@@ -215,18 +232,22 @@ class _newappState extends State<newapp> {
                               fontWeight: FontWeight.bold),
                         ),
                         style: ButtonStyle(
-                            backgroundColor: MaterialStatePropertyAll(Colors.red),
+                            backgroundColor:
+                                MaterialStatePropertyAll(Colors.red),
                             padding: MaterialStatePropertyAll(
                               EdgeInsets.all(34),
                             ),
-                            shape: MaterialStatePropertyAll(RoundedRectangleBorder(
-                                borderRadius: BorderRadius.circular(15)))),
+                            shape: MaterialStatePropertyAll(
+                                RoundedRectangleBorder(
+                                    borderRadius: BorderRadius.circular(15)))),
                       )
                     ],
                   ),
                 ),
               ),
-              SizedBox(height: 20,),
+              SizedBox(
+                height: 20,
+              ),
               Container(
                 child: Text(
                   "hello",
