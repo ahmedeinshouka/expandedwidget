@@ -55,7 +55,7 @@ class _newappState extends State<newapp> {
         width: 300,
         height: 300,
         color: Colors.blue,
-        child: Stack(
+        child: Stack(fit: StackFit.passthrough,
           children: [
             Positioned(
               child: Container(
