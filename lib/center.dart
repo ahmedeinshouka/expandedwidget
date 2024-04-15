@@ -51,54 +51,67 @@ class _newappState extends State<newapp> {
       ),
       body: Center(
           child: Container(
-        padding: EdgeInsets.all(10),    
+        padding: EdgeInsets.all(10),
         width: 300,
         height: 300,
         color: Colors.blue,
         child: Stack(
           children: [
-            
-            Positioned(child: Container(
-              child: Text(
-                "c4a-courses",
-                style: TextStyle(fontSize: 15, fontWeight: FontWeight.bold),
+            Positioned(
+              child: Container(
+                child: Text(
+                  "c4a-courses",
+                  style: TextStyle(fontSize: 15, fontWeight: FontWeight.bold),
+                ),
+                height: 100,
+                width: 100,
+                color: Colors.green,
+                alignment: Alignment.center,
               ),
-              height: 100,
-              width: 100,
-              color: Colors.green,
-              alignment: Alignment.center,
-            ),right: 0,),
-            Positioned(child: Container(
-              child: Text(
-                "c4a-courses",
-                style: TextStyle(fontSize: 15, fontWeight: FontWeight.bold),
+              right: 0,
+            ),
+            Positioned(
+              child: Container(
+                child: Text(
+                  "c4a-courses",
+                  style: TextStyle(fontSize: 15, fontWeight: FontWeight.bold),
+                ),
+                height: 100,
+                width: 100,
+                color: Colors.amber,
+                alignment: Alignment.center,
               ),
-              height: 100,
-              width: 100,
-              color: Colors.amber,
-              alignment: Alignment.center,
-            ),bottom: 0,left: 0,),
-          Positioned(child: Container(
-              child: Text(
-                "c4a-courses",
-                style: TextStyle(fontSize: 15, fontWeight: FontWeight.bold),
+              bottom: 0,
+              left: 0,
+            ),
+            Positioned(
+              child: Container(
+                child: Text(
+                  "c4a-courses",
+                  style: TextStyle(fontSize: 15, fontWeight: FontWeight.bold),
+                ),
+                height: 100,
+                width: 100,
+                color: Color.fromARGB(255, 181, 5, 46),
+                alignment: Alignment.center,
               ),
-              height: 100,
-              width: 100,
-              color: Color.fromARGB(255, 181, 5, 46),
-              alignment: Alignment.center,
-            ),left: 0,),
-            Positioned(child: Container(
-              child: Text(
-                "c4a-courses",
-                style: TextStyle(fontSize: 15, fontWeight: FontWeight.bold),
+              left: 0,
+            ),
+            Positioned(
+              child: Container(
+                child: Text(
+                  "c4a-courses",
+                  style: TextStyle(fontSize: 15, fontWeight: FontWeight.bold),
+                ),
+                height: 100,
+                width: 100,
+                color: const Color.fromARGB(255, 98, 7, 255),
+                alignment: Alignment.center,
               ),
-              height: 100,
-              width: 100,
-              color: const Color.fromARGB(255, 98, 7, 255),
-              alignment: Alignment.center,
-            ),bottom: 0,right: 0,),  
-          Center(
+              bottom: 0,
+              right: 0,
+            ),
+            Center(
               child: Container(
                 child: Text(
                   "c4a-courses",
@@ -109,8 +122,8 @@ class _newappState extends State<newapp> {
                 color: Color.fromARGB(255, 239, 37, 161),
                 alignment: Alignment.center,
               ),
-            )],
-        
+            )
+          ],
         ),
       )),
     );
