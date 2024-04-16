@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter/widgets.dart';
 
 void main() {
   runApp(const MyApp());
@@ -50,12 +51,10 @@ class _newappState extends State<newapp> {
         ],
       ),
       body: Column(children: [
-           Image.asset("assets/img/IMG_20240209_114428.jpg"),
-           Container(
-            child: Text("Data",style: TextStyle(fontSize: 35,color: Color.fromARGB(255, 255, 255, 255),fontFamily: "LilitaOne"),),color:Color.fromARGB(255, 0, 0, 0) ,width: 200,height: 200,
-        alignment: Alignment.center,
+        Text("sant_cathrine",style: TextStyle(fontSize: 35,color: Colors.yellow[700],fontFamily: "LilitaOne"),),
+           ClipRRect(child: Image.asset("assets/img/IMG_20240209_114428.jpg",width: double.infinity,fit: BoxFit.fill,height: 300,),borderRadius: BorderRadius.circular(25),),
+           
         
-        ),
       ]),
     );
   }
