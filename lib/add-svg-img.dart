@@ -85,7 +85,7 @@ class _newappState extends State<newapp> {
                       ),SizedBox(width: 10,),Container(
                         child: SvgPicture.asset(
                           "assets/svg-img/icons8-twitter.svg",
-                          color: Colors.blue,
+                          color: const Color.fromARGB(255, 0, 0, 0),
                         ),
                         decoration: BoxDecoration(
                             border: Border.all(
