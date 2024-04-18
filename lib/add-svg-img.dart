@@ -74,17 +74,17 @@ class _newappState extends State<newapp> {
                       Container(
                         child: SvgPicture.asset(
                           "assets/svg-img/icons8-facebook.svg",
-                          color: Colors.blue,
+                          color: Colors.blue,height: 40,
                         ),
                         decoration: BoxDecoration(
                             border: Border.all(
                               color: Colors.blue,
                             ),
                             shape: BoxShape.circle),
-                        padding: EdgeInsets.all(15),
+                        padding: EdgeInsets.all(13),
                       ),SizedBox(width: 10,),Container(
                         child: SvgPicture.asset(
-                          "assets/svg-img/icons8-twitter.svg",
+                          "assets/svg-img/icons8-twitter.svg",height: 40,
                           color: Color.fromARGB(151, 44, 2, 170),
                         ),
                         decoration: BoxDecoration(
@@ -92,10 +92,10 @@ class _newappState extends State<newapp> {
                               color: Colors.blue,
                             ),
                             shape: BoxShape.circle),
-                        padding: EdgeInsets.all(15),
+                        padding: EdgeInsets.all(13),
                       ),SizedBox(width: 10,),Container(
                         child: SvgPicture.asset(
-                          "assets/svg-img/icons8-instagram.svg",
+                          "assets/svg-img/icons8-instagram.svg",height: 40,
                           color: Colors.blue,
                         ),
                         decoration: BoxDecoration(
@@ -103,7 +103,7 @@ class _newappState extends State<newapp> {
                               color: Colors.blue,
                             ),
                             shape: BoxShape.circle),
-                        padding: EdgeInsets.all(15),
+                        padding: EdgeInsets.all(13),
                       )
                     ],
                   ),
