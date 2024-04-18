@@ -85,7 +85,7 @@ class _newappState extends State<newapp> {
                       ),SizedBox(width: 10,),Container(
                         child: SvgPicture.asset(
                           "assets/svg-img/icons8-twitter.svg",
-                          color: const Color.fromARGB(255, 0, 0, 0),
+                          color: Color.fromARGB(151, 44, 2, 170),
                         ),
                         decoration: BoxDecoration(
                             border: Border.all(
@@ -95,7 +95,7 @@ class _newappState extends State<newapp> {
                         padding: EdgeInsets.all(10),
                       ),SizedBox(width: 10,),Container(
                         child: SvgPicture.asset(
-                          "assets\svg-img\icons8-instagram.svg",
+                          "assets/svg-img/icons8-instagram.svg",
                           color: Colors.blue,
                         ),
                         decoration: BoxDecoration(
