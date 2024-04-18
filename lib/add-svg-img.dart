@@ -81,7 +81,7 @@ class _newappState extends State<newapp> {
                               color: Colors.blue,
                             ),
                             shape: BoxShape.circle),
-                        padding: EdgeInsets.all(10),
+                        padding: EdgeInsets.all(15),
                       ),SizedBox(width: 10,),Container(
                         child: SvgPicture.asset(
                           "assets/svg-img/icons8-twitter.svg",
@@ -92,7 +92,7 @@ class _newappState extends State<newapp> {
                               color: Colors.blue,
                             ),
                             shape: BoxShape.circle),
-                        padding: EdgeInsets.all(10),
+                        padding: EdgeInsets.all(15),
                       ),SizedBox(width: 10,),Container(
                         child: SvgPicture.asset(
                           "assets/svg-img/icons8-instagram.svg",
@@ -103,7 +103,7 @@ class _newappState extends State<newapp> {
                               color: Colors.blue,
                             ),
                             shape: BoxShape.circle),
-                        padding: EdgeInsets.all(10),
+                        padding: EdgeInsets.all(15),
                       )
                     ],
                   ),
