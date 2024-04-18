@@ -75,8 +75,34 @@ class _newappState extends State<newapp> {
               width: double.infinity,
               height: 300,
               loadingBuilder: (context, child, loadingProgress) {
-                return loadingProgress == null? child : Container(child: CircularProgressIndicator(strokeAlign: BorderSide.strokeAlignCenter,),alignment: Alignment.center,margin: EdgeInsets.all(100),);
+                return loadingProgress == null
+                    ? child
+                    : Container(
+                        child: CircularProgressIndicator(
+                          strokeAlign: BorderSide.strokeAlignCenter,
+                        ),
+                        alignment: Alignment.center,
+                        margin: EdgeInsets.all(100),
+                      );
               },
+            ),
+          ),
+          CircleAvatar(
+            child: ClipOval(
+              child: Image.network(
+                "https://images.freeimages.com/variants/YSotMxjHEvoFiBGaZkkJv5K8/f4a36f6589a0e50e702740b15352bc00e4bfaf6f58bd4db850e167794d05993d",
+                height: 300,
+                width: 200,
+                loadingBuilder: (context, child, loadingProgress) {
+                  return loadingProgress == null
+                      ? child
+                      : Container(
+                          child: CircularProgressIndicator(),
+                          alignment: Alignment.centerLeft,
+                          margin: EdgeInsets.all(100),
+                        );
+                },
+              ),
             ),
           )
         ]),
