@@ -24,11 +24,11 @@ class newapp extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(appBar: AppBar(title:Text("Guide-GO",style: TextStyle(fontFamily: "LilitaOne",fontSize: 30,color: Color.fromARGB(255, 0, 14, 121)),),centerTitle: true,elevation: .5,),
       body: Stack(
-        children: [Container(width: double.infinity,
-          child: Column(
-            children: [ Container(child: Image.asset("assets/img/1.jpg"),width: double.infinity,),
-              Center(child: Container(child: Image.asset("assets/img/2.jpg"),)),
-            ],
+        children: [Container(width: double.infinity,height: double.infinity,
+          child: Column(mainAxisSize: MainAxisSize.max,
+            children: [ Image.asset("assets/img/1.jpg",width: double.maxFinite,),
+              Image.asset("assets/img/2.jpg",width: double.infinity,),
+            SizedBox(height: 1,)],
           ),
         ),Container(
           width: double.infinity,
