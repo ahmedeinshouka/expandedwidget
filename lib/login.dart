@@ -22,15 +22,37 @@ class newapp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Scaffold(appBar: AppBar(title:Text("Guide-GO",style: TextStyle(fontFamily: "LilitaOne",fontSize: 30,color: Color.fromARGB(255, 0, 14, 121)),),centerTitle: true,elevation: .5,),
-      body: Stack(
-        children: [Container(width: double.infinity,height: double.infinity,
-          child: Column(mainAxisSize: MainAxisSize.max,
-            children: [ Image.asset("assets/img/1.jpg",width: double.maxFinite,),
-              Image.asset("assets/img/2.jpg",width: double.infinity,),
-            SizedBox(height: 1,)],
+    return Scaffold(
+      appBar: AppBar(
+        title: Text(
+          "GuideGO",
+          style: TextStyle(
+              fontFamily: "LilitaOne",
+              fontSize: 30,
+              color: Color.fromARGB(255, 0, 14, 121)),
+        ),
+        centerTitle: true,
+        elevation: .5,
+      ),
+      body: Stack(children: [
+        Container(
+          width: double.infinity,
+          height: double.infinity,
+          child: Container(height: double.infinity,
+            child: 
+              
+               
+                Image.asset(
+                  "assets/img/1.jpg",
+                  width: double.infinity,
+                fit: BoxFit.cover,),
+              
+                
+              
+            ),
           ),
-        ),Container(
+       
+        Container(
           width: double.infinity,
           child: Column(
             mainAxisAlignment: MainAxisAlignment.center,
@@ -40,40 +62,64 @@ class newapp extends StatelessWidget {
                   cursorWidth: 2,
                   textInputAction: TextInputAction.next,
                   decoration: InputDecoration(
-                    focusColor: Colors.black,
-                  
-                    border: OutlineInputBorder(
-                      borderRadius: BorderRadius.circular(30),
-                    ),
-                    fillColor: const Color.fromARGB(255, 255, 255, 255),
-                  hintText: "email :",prefixIcon: Icon(Icons.person)),
+                      focusColor: Colors.black,
+                      border: OutlineInputBorder(
+                        borderRadius: BorderRadius.circular(30),
+                      ),
+                      fillColor: const Color.fromARGB(255, 255, 255, 255),
+                      hintText: "email :",
+                      prefixIcon: Icon(Icons.person)),
                 ),
                 decoration: BoxDecoration(
                     borderRadius: BorderRadius.circular(33),
                     color: const Color.fromARGB(255, 255, 255, 255)),
                 width: 250,
-              ),SizedBox(height: 20,),Container(
-                child: TextField(obscuringCharacter: "*",obscureText: true,
+              ),
+              SizedBox(
+                height: 20,
+              ),
+              Container(
+                child: TextField(
+                  obscuringCharacter: "*",
+                  obscureText: true,
                   cursorWidth: 2,
                   textInputAction: TextInputAction.next,
                   decoration: InputDecoration(
-                    focusColor: Colors.black,
-                    border: OutlineInputBorder(
-                      borderRadius: BorderRadius.circular(30),
-                    ),
-                    fillColor: const Color.fromARGB(255, 254, 255, 255),
-                  hintText: "Password :",prefixIcon: Icon(Icons.lock)),
+                      focusColor: Colors.black,
+                      border: OutlineInputBorder(
+                        borderRadius: BorderRadius.circular(30),
+                      ),
+                      fillColor: const Color.fromARGB(255, 254, 255, 255),
+                      hintText: "Password :",
+                      prefixIcon: Icon(Icons.lock)),
                 ),
                 decoration: BoxDecoration(
                     borderRadius: BorderRadius.circular(33),
                     color: const Color.fromARGB(255, 255, 255, 255)),
                 width: 250,
-              ),SizedBox(height: 20,),
-              ElevatedButton(onPressed: (){}, child: Text("Log-in",style: TextStyle(fontFamily: "LilitaOne",fontSize: 26,color:  Color.fromARGB(255, 253, 253, 253)),),style: ButtonStyle(backgroundColor: MaterialStatePropertyAll(Color.fromARGB(255, 0, 14, 121)),fixedSize: MaterialStatePropertyAll(Size(250, 10))),)
+              ),
+              SizedBox(
+                height: 20,
+              ),
+              ElevatedButton(
+                onPressed: () {},
+                child: Text(
+                  "Log-in",
+                  style: TextStyle(
+                      fontFamily: "LilitaOne",
+                      fontSize: 26,
+                      color: Color.fromARGB(255, 253, 253, 253)),
+                ),
+                style: ButtonStyle(
+                    backgroundColor: MaterialStatePropertyAll(
+                        Color.fromARGB(255, 0, 14, 121)),
+                    fixedSize: MaterialStatePropertyAll(Size(250, 10))),
+              )
             ],
           ),
         ),
-      ]),backgroundColor:Color.fromARGB(255, 251, 252, 255),
+      ]),
+      backgroundColor: Color.fromARGB(255, 251, 252, 255),
     );
   }
 }
