@@ -1,4 +1,5 @@
 import "package:flutter/material.dart";
+import "package:flutter/widgets.dart";
 
 void main() {
   runApp(const MyApp());
@@ -26,7 +27,7 @@ class ninjapp extends StatelessWidget {
       appBar: AppBar(
         title: Text(
           "Ninja Id Card",
-          style: TextStyle(color: const Color.fromARGB(255, 255, 254, 254)),
+          style: TextStyle(color: const Color.fromARGB(255, 255, 254, 254),fontFamily: "LilitaOne"),
           selectionColor: Color.fromARGB(250, 255, 255, 255),
         ),
         centerTitle: true,
@@ -39,11 +40,17 @@ class ninjapp extends StatelessWidget {
         child: Column(
           crossAxisAlignment: CrossAxisAlignment.start,
           children: [
-            Center(
-              child: CircleAvatar(
-                radius: 40,
-                backgroundImage: AssetImage("assets/img/DSC_0564 copy.jpg"),
-              ),
+            Row(
+              children: [
+                Stack(
+                  children: [
+                    CircleAvatar(
+                      radius: 66,
+                      backgroundImage: AssetImage("assets/img/DSC_0564 copy.jpg"),
+                    ),Icon(Icons.verified,color: Colors.blueGrey,)
+                  ],alignment: Alignment.bottomRight,
+                ),
+              ],mainAxisAlignment: MainAxisAlignment.center,
             ),
             Divider(
               height: 60,
