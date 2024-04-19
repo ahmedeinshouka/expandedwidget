@@ -22,7 +22,7 @@ class newapp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Scaffold(
+    return Scaffold(appBar: AppBar(title:Text("Guide-GO",style: TextStyle(fontFamily: "LilitaOne",fontSize: 30,color: Color.fromARGB(255, 0, 14, 121)),),centerTitle: true,elevation: .5,),
       body: Container(
         width: double.infinity,
         child: Column(
@@ -34,17 +34,16 @@ class newapp extends StatelessWidget {
                 textInputAction: TextInputAction.next,
                 decoration: InputDecoration(
                   focusColor: Colors.black,
-                  disabledBorder: InputBorder.none,
-                  enabledBorder: InputBorder.none,
+                
                   border: OutlineInputBorder(
                     borderRadius: BorderRadius.circular(30),
                   ),
-                  fillColor: Colors.blue,
+                  fillColor: const Color.fromARGB(255, 255, 255, 255),
                 hintText: "email :",prefixIcon: Icon(Icons.person)),
               ),
               decoration: BoxDecoration(
                   borderRadius: BorderRadius.circular(33),
-                  color: Colors.pink[50]),
+                  color: const Color.fromARGB(255, 255, 255, 255)),
               width: 250,
             ),SizedBox(height: 20,),Container(
               child: TextField(obscuringCharacter: "*",obscureText: true,
@@ -52,23 +51,21 @@ class newapp extends StatelessWidget {
                 textInputAction: TextInputAction.next,
                 decoration: InputDecoration(
                   focusColor: Colors.black,
-                  disabledBorder: InputBorder.none,
-                  enabledBorder: InputBorder.none,
                   border: OutlineInputBorder(
                     borderRadius: BorderRadius.circular(30),
                   ),
-                  fillColor: Colors.blue,
+                  fillColor: const Color.fromARGB(255, 254, 255, 255),
                 hintText: "Password :",prefixIcon: Icon(Icons.lock)),
               ),
               decoration: BoxDecoration(
                   borderRadius: BorderRadius.circular(33),
-                  color: Colors.pink[50]),
+                  color: const Color.fromARGB(255, 255, 255, 255)),
               width: 250,
             ),SizedBox(height: 20,),
-            ElevatedButton(onPressed: (){}, child: Text("Log-in",style: TextStyle(fontFamily: "LilitaOne",fontSize: 26),),style: ButtonStyle(backgroundColor: MaterialStatePropertyAll(Colors.blue[50]),fixedSize: MaterialStatePropertyAll(Size(200, 10))),)
+            ElevatedButton(onPressed: (){}, child: Text("Log-in",style: TextStyle(fontFamily: "LilitaOne",fontSize: 26,color:  Color.fromARGB(255, 253, 253, 253)),),style: ButtonStyle(backgroundColor: MaterialStatePropertyAll(Color.fromARGB(255, 0, 14, 121)),fixedSize: MaterialStatePropertyAll(Size(250, 10))),)
           ],
         ),
-      ),
+      ),backgroundColor:Color.fromARGB(255, 251, 252, 255),
     );
   }
 }
